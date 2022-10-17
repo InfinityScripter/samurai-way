@@ -1,25 +1,23 @@
 import React from 'react';
-import './App.css';
+import "./App.css"
+import Header from "./components/header/Header";
+import Nav from "./components/nav/Nav";
+import Profile from "./components/profile/Profile";
+import Footer from "./components/footer/Footer";
+
 
 //This is component APP
 
-const App = () => {
+function App() {
     return (
-        <div className="App">
-            <div>
-                <h1>Hi Div1</h1>
-            </div>
-            <h2> Div2</h2>
-            <ul>
-                Who here
-                <li>Hello</li>
-                <li>my</li>
-                <li>name</li>
-                <li>is</li>
-                <li>Mikhael</li>
-            </ul>
+        <div className="app-wrapper">
+            <Header/>
+            <Nav/>
+            <Profile/>
+            <Footer/>
         </div>
     );
 }
+
 
 export default App;
