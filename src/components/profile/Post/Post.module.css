@@ -1,12 +1,5 @@
-
-
-.content {
-    grid-area: main;
-    background-color: #D9CEC5;
-    margin: 0 auto;}
-
 .content img {
-    width: 100%;
+    width: 80%;
 }
 
 .content_avatar img {
